@@ -1,3 +1,45 @@
+:root{
+--palette-text: #2C2E30;
+--palette-text-darker: #212224;
+--palette-text-lighter: #37393c;
+--palette-text-alt: #7E8085;
+--palette-text-alt-darker: #5e6063;
+--palette-text-alt-lighter: #9da0a6;
+--palette-bg: #ffffff;
+--palette-bg-darker: #bfbfbf;
+--palette-bg-lighter: #ffffff;
+--palette-bg-alt: #F6F8F9;
+--palette-bg-alt-darker: #b8baba;
+--palette-bg-alt-lighter: #ffffff;
+--palette-interactive: #0E5AA3;
+--palette-interactive-darker: #0a437a;
+--palette-interactive-lighter: #1170cb;
+--palette-attention: #C43D09;
+--palette-attention-darker: #932d06;
+--palette-attention-lighter: #f54c0b;
+--palette-brand-1: #D15423;
+--palette-brand-1-darker: #9c3f1a;
+--palette-brand-1-lighter: #ff692b;
+--palette-brand-2: #0154A4;
+--palette-brand-2-darker: #003f7b;
+--palette-brand-2-lighter: #0169cd;
+--palette-brand-3: #092B60;
+--palette-brand-3-darker: #062048;
+--palette-brand-3-lighter: #0b3578;
+--palette-brand-4: #3A03B7;
+--palette-brand-4-darker: #2b0289;
+--palette-brand-4-lighter: #4803e4;
+--palette-dark: #011B34;
+--palette-dark-darker: #001427;
+--palette-dark-lighter: #012141;
+--palette-light: #ffffff;
+--palette-light-darker: #bfbfbf;
+--palette-light-lighter: #ffffff;
+--palette-light-alt: #E0F0F5;
+--palette-light-alt-darker: #a8b4b7;
+--palette-light-alt-lighter: #ffffff;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +47,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+main {
+  background:#212121;
 }
