@@ -65,7 +65,7 @@ return (
             <br />
             {profile ? (
                 <div>
-                    <img alt="google-image" src={profile.picture}/>
+                    <img alt="google" src={profile.picture}/>
                     <h3>User Logged in</h3>
                     <p>Name: {profile.name}</p>
                     <p>Email Address: {profile.email}</p>
