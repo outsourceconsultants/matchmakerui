@@ -60,7 +60,7 @@ return (
 
 
 
-            <h2>React Google Login</h2>
+            <h2>Match Maker Login</h2>
             <br />
             <br />
             {profile ? (
