@@ -3,8 +3,7 @@ import { GoogleLogin,googleLogout, useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 import './App.css';
 import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route}
-    from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './pages/Home';
 import History from './pages/History';
 import Search from './pages/Search';
